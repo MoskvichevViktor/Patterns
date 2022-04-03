@@ -15,5 +15,7 @@ public final class DemoApp {
         user = new User(user.getUserId(), "Updated");
         mapper.update(user);
         mapper.delete(user);
+
+
     }
 }
